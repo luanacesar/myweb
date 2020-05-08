@@ -3,17 +3,27 @@
 body {
     margin: 0;
     text-align: center;
+    font-size:2em;
 }
 
 
 h1 {
-    margin-top: 0 auto;
+    margin-top: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
-    font-size: 50px;
+    font-size: 5.625rem;
 }
+
+
+h2 {
+    margin-top: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
 .subtitle {
     font-family: 'Indie Flower', cursive;
-    font-size: 20px;
+    font-size: 2rem;
 }
 .Top {
     padding-top: 10px;
@@ -24,6 +34,7 @@ h1 {
 .Medium {
     background-color: #fffdf9;
     margin:auto;
+    text-align:center;
 }
 .Botton {
     background-color: #ffe3ed;
@@ -35,8 +46,17 @@ h1 {
     width: 30%;
     
 }
-.profile {
-    
+table {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 0;
+}
+.skills {
+    text-align: center;
+    background-color: #3B6978;
+}
+.contact-me {
+    background-color: #84a9ac;
 }
 .pro {
     text-decoration: underline;
@@ -44,19 +64,22 @@ h1 {
 .cloudTop {
 
     position: absolute;
-    right:380px;
-    top:60px;
+    right:20%;
+    /*top:60px;*/
 }
 .cloudBotton {
   
     position: absolute;
-    left:300px;
-    bottom:500px;
+    left:9em;
+    /*bottom:6em;*/
   
 }
 .moutain {
   width:100%;
 }
+
+
+
 
 
 
