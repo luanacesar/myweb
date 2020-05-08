@@ -1,26 +1,26 @@
-﻿
 
 body {
     margin: 0;
     text-align: center;
     font-size:2em;
 }
-
-
 h1 {
     margin-top: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
     font-size: 5.625rem;
+    color: #204051;
 }
-
-
 h2 {
     margin-top: 0 auto;
     font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    line-height: 2;
+    color: #204051;
 }
-
-
-
+h3 {
+    color: #84a9ac;
+    text-align:center;
+}
 .subtitle {
     font-family: 'Indie Flower', cursive;
     font-size: 2rem;
@@ -32,31 +32,64 @@ h2 {
     width: 100%;
   }
 .Medium {
-    background-color: #fffdf9;
+    /*background-color: #fffdf9;*/
     margin:auto;
     text-align:center;
 }
 .Botton {
-    background-color: #ffe3ed;
+    background-color: #84a9ac;
+    margin: 0 auto;
+    bottom:0;
 }
 .luana {
     padding-top:100px;   
-    background-color: #fffdf9;
+    background-color: white;
     border-radius: 100%;
-    width: 30%;
+    width: 25%;
+    position:relative;
+
     
 }
-table {
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 0;
-}
 .skills {
-    text-align: center;
-    background-color: #3B6978;
+    text-align: left;
+    display:inline-block;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px auto 100px auto;
+    line-height: 1.5;
+}
+#img-comp {
+    width: 30%;
+        /*margin-right: 30px;
+        background-color: white;*/
+    margin-right: 60px;
+    float: left;
+}
+.skills-row {
+    text-align: left;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px auto 100px auto;
+    line-height: 1.5;
+}
+#skimg {
+    border-radius: 100%;
+    width: 30%;
+    /*text-align: center;*/
+    background-color: black;
+    float:left;
+    margin-right:60px;  
+
+}
+hr {
+    border: solid;
+    width: 10%;
+    background-color: #204051;
+    height:8px;
+    
 }
 .contact-me {
-    background-color: #84a9ac;
+    /*background-color: #84a9ac;*/
 }
 .pro {
     text-decoration: underline;
@@ -77,8 +110,6 @@ table {
 .moutain {
   width:100%;
 }
-
-
 
 
 
