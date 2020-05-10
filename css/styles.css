@@ -1,51 +1,65 @@
 
+a {
+    color: #8bbabb;
+    margin: 20px 10px;
+    text-decoration: none;
+}
+    a:hover {
+        color: #c7f0db;
+    }
 body {
     margin: 0;
     text-align: center;
-    font-size:2em;
+    font-size: 2em;
+    color: #40514E;
 }
 h1 {
     margin-top: 50px auto 0 auto;
+    margin-top: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
     font-size: 5.625rem;
-    color: #204051;
+    color: #464159;
 }
 h2 {
     margin-top: 0 auto;
-    font-family: 'Montserrat', sans-serif;
     font-weight: normal;
     line-height: 2;
-    color: #204051;
+    color: #6c7b95;
+    padding-bottom: 10px;
+    text-align: center;
 }
 h3 {
-    color: #84a9ac;
-    text-align:center;
+    color: #8bbabb;
+    text-align: center;
 }
 .subtitle {
     font-family: 'Indie Flower', cursive;
     font-size: 2rem;
 }
+.intro{ 
+    width:50%;
+    margin:auto;
+}
 .Top {
     padding-top: 10px;
-    background-color: #beebe9;
-
+    background-color: #c3edea;
     width: 100%;
-  }
+}
 .Medium {
-    /*background-color: #fffdf9;*/
-    margin:auto;
-    text-align:center;
+    margin:50px 0;
+
 }
 .Botton {
-    background-color: #84a9ac;
+    background-color: #464159;
+    padding: 50px 0 20px;
     margin: 0 auto;
-    bottom:0;
+    bottom: 0;
 }
 .luana {
     padding-top:100px;   
     background-color: white;
     border-radius: 100%;
-    width: 25%;
+    width: 15%;
     position:relative;
 
     
@@ -60,42 +74,73 @@ h3 {
 }
 #img-comp {
     width: 30%;
-        /*margin-right: 30px;
-        background-color: white;*/
-    margin-right: 60px;
-    float: left;
+    margin-left: 100px;
+    float: right;
 }
 .skills-row {
     text-align: left;
     width: 50%;
     margin: 0 auto;
     margin-top: 100px auto 100px auto;
+
+}
+p {
     line-height: 1.5;
 }
 #skimg {
     border-radius: 100%;
     width: 30%;
-    /*text-align: center;*/
+    float: left;
+    margin-right: 100px;
     background-color: black;
-    float:left;
-    margin-right:60px;  
-
 }
 hr {
-    border: solid;
-    width: 10%;
-    background-color: #204051;
-    height:8px;
-    
+    border: dotted 9px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+    color: #464159;
 }
 .contact-me {
     /*background-color: #84a9ac;*/
+    /*text-align: left;*/
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px auto 100px auto;
+    line-height: 1.5;
 }
+.contact-message{
+    width:60%;
+    margin: 40px auto 60px;
+    text-align:justify;
+    /*font-size:20px;*/
+
+}
+.btn {
+    margin:0 auto;
+    text-align:center;
+    background: linear-gradient(to bottom, #27b3e6 5%, #408c99 100%);
+    background-color: #27b3e6;
+    border-radius: 8px;
+    border: 1px solid #29668f;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    text-shadow: 0px 2px 0px #3d768a;
+}
+  .btn:hover {
+        background: linear-gradient(to bottom, #408c99 5%, #27b3e6 100%);
+        background-color: #408c99;
+    }
 .pro {
     text-decoration: underline;
 }
 .cloudTop {
-
+    top:30px; 
     position: absolute;
     right:20%;
     /*top:60px;*/
@@ -111,6 +156,10 @@ hr {
   width:100%;
 }
 
-
+.copyright {
+    color: azure;
+    font-size: 1rem;
+    padding: 20px 0;
+}
 
 
